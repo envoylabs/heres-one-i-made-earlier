@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TallyResponse",
+  "type": "object",
+  "required": [
+    "no_votes",
+    "yes_votes"
+  ],
+  "properties": {
+    "no_votes": {
+      "type": "integer",
+      "format": "uint64",
+      "minimum": 0.0
+    },
+    "yes_votes": {
+      "type": "integer",
+      "format": "uint64",
+      "minimum": 0.0
+    }
+  }
+}
